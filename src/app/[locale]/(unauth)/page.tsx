@@ -6,6 +6,7 @@ import AdidhiFeatures from '@/components/AdidhiFeatures';
 import AdidhiFooter from '@/components/AdidhiFooter';
 import Testimonials from '@/components/AdidhiTestimonials';
 import EmployeesReview from '@/components/EmployeesReview';
+import HelloEmployers from '@/components/HelloEmployers';
 import HotelAndRestaurantJobs from '@/components/HotelAndResturantJobs';
 import { Navbar } from '@/templates/Navbar';
 
@@ -29,6 +30,7 @@ const IndexPage = (props: { params: { locale: string } }) => {
       <Navbar />
       <HotelAndRestaurantJobs />
       <AdidhiFeatures />
+      <HelloEmployers />
       <EmployeesReview />
       <Testimonials />
       <AdidhiFAQ />
