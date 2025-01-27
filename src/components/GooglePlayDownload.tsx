@@ -89,7 +89,7 @@ const DownloadButton: React.FC = () => {
       </svg>
 
       {/* Button Text */}
-      <span className="font-medium text-gray-800">Download Jobseeker App</span>
+      <span className="font-medium text-gray-800">Download App</span>
     </a>
   );
 };

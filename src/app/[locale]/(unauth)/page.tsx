@@ -5,9 +5,9 @@ import AdidhiFAQ from '@/components/AdidhiFAQPage';
 import AdidhiFeatures from '@/components/AdidhiFeatures';
 import AdidhiFooter from '@/components/AdidhiFooter';
 import Testimonials from '@/components/AdidhiTestimonials';
+import EmployeesReview from '@/components/EmployeesReview';
 import HotelAndRestaurantJobs from '@/components/HotelAndResturantJobs';
 import { Navbar } from '@/templates/Navbar';
-import { Sponsors } from '@/templates/Sponsors';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -28,8 +28,8 @@ const IndexPage = (props: { params: { locale: string } }) => {
     <>
       <Navbar />
       <HotelAndRestaurantJobs />
-      <Sponsors />
       <AdidhiFeatures />
+      <EmployeesReview />
       <Testimonials />
       <AdidhiFAQ />
       <AdidhiAppImage />
