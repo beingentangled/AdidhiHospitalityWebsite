@@ -26,7 +26,7 @@ const AdidhiFooter: React.FC = () => {
               width={20}
               height={20}
             />
-            <span className="text-gray-700">Call 12345 12345</span>
+            <span className="text-gray-700">Call +91 97461 91919</span>
           </div>
         </div>
 
@@ -50,7 +50,7 @@ const AdidhiFooter: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href="/terms-of-use" className="hover:text-gray-900">
+              <Link href="/coming-soon" className="hover:text-gray-900">
                 Terms of use
               </Link>
             </li>
@@ -62,12 +62,12 @@ const AdidhiFooter: React.FC = () => {
           <h3 className="font-bold text-orange-500">Employer</h3>
           <ul className="space-y-1 text-gray-700">
             <li>
-              <Link href="/post-a-job" className="hover:text-gray-900">
+              <Link href="/coming-soon" className="hover:text-gray-900">
                 Post a job
               </Link>
             </li>
             <li>
-              <Link href="/get-support" className="hover:text-gray-900">
+              <Link href="/coming-soon" className="hover:text-gray-900">
                 Get Support
               </Link>
             </li>
@@ -79,7 +79,7 @@ const AdidhiFooter: React.FC = () => {
           <h3 className="font-bold text-orange-500">Job Seeker</h3>
           <ul className="space-y-1 text-gray-700">
             <li>
-              <Link href="/download-app" className="hover:text-gray-900">
+              <Link href="/coming-soon" className="hover:text-gray-900">
                 Download App
               </Link>
             </li>
@@ -104,7 +104,7 @@ const AdidhiFooter: React.FC = () => {
               />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://youtube.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80"
@@ -162,7 +162,7 @@ const AdidhiFooter: React.FC = () => {
 
       {/* Footer Bottom */}
       <div className="mt-10 text-center text-sm text-gray-500">
-        Copyright © 2022. Adidhi. All rights reserved.
+        Copyright © 2025. Adidhi. All rights reserved.
       </div>
     </footer>
   );
