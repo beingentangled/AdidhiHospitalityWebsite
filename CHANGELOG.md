@@ -1,3 +1,10 @@
+# 1.0.0 (2025-01-30)
+
+
+### Features
+
+* update testimony section ([38013f1](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/38013f1fb2ddc1925d650bb6a9242ec42f4ef5f7))
+
 ## [1.7.4](https://github.com/ixartz/SaaS-Boilerplate/compare/v1.7.3...v1.7.4) (2024-12-20)
 
 
