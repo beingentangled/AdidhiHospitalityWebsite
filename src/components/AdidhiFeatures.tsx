@@ -12,7 +12,7 @@ const AdidhiFeatures: React.FC = () => {
           Dear Jobseekers
         </h2>
         <p className="mt-2 text-lg font-medium text-gray-800 md:text-xl">
-          Find your next hotel job with Adidhi App
+          Discover your next hotel job with Adidhi
         </p>
       </div>
 
@@ -24,28 +24,27 @@ const AdidhiFeatures: React.FC = () => {
           <div className="flex items-start space-x-3">
             <span className="text-xl text-orange-500">✔</span>
             <p className="text-base text-gray-700 md:text-lg">
-              <strong>Adidhi App is FREE!</strong>
+              <strong>Adidhi is completely FREE!</strong>
               {' '}
-              No payments are needed.
+              No payments are required.
             </p>
           </div>
           {/* Feature 2 */}
           <div className="flex items-start space-x-3">
             <span className="text-xl text-orange-500">✔</span>
             <p className="text-base text-gray-700 md:text-lg">
-              Find
+              Discover
               {' '}
               <strong>Part-Time & Full-Time</strong>
               {' '}
-              hospitality jobs
-              around your location.
+              hospitality job opportunities near you.
             </p>
           </div>
           {/* Feature 3 */}
           <div className="flex items-start space-x-3">
             <span className="text-xl text-orange-500">✔</span>
             <p className="text-base text-gray-700 md:text-lg">
-              Create your resume with our
+              Build your resume effortlessly with our
               {' '}
               <strong>Free Resume Maker</strong>
               .
@@ -55,7 +54,7 @@ const AdidhiFeatures: React.FC = () => {
           <div className="flex items-start space-x-3">
             <span className="text-xl text-orange-500">✔</span>
             <p className="text-base text-gray-700 md:text-lg">
-              Use Adidhi App in
+              Access  Adidhi in
               {' '}
               <strong>Hindi, English</strong>
               {' '}

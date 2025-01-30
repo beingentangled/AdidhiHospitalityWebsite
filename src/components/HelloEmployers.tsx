@@ -12,7 +12,7 @@ const HelloEmployers: React.FC = () => {
           Hello Employers
         </h1>
         <p className="mt-4 text-lg text-gray-800 md:text-2xl">
-          Hire hotel and restaurant staff. Instantly.
+          Instantly Hire Hotel & Restaurant Staff.
         </p>
       </div>
 
@@ -69,7 +69,7 @@ const HelloEmployers: React.FC = () => {
               <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
             </svg>
           </div>
-          <span>Talk Directly with Candidates</span>
+          <span>Connect Directly with Candidates</span>
         </div>
 
         {/* Feature 4 */}
@@ -79,7 +79,7 @@ const HelloEmployers: React.FC = () => {
               <path d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
             </svg>
           </div>
-          <span>Get applicant resume on SMS</span>
+          <span>Receive Applicant Resumes via SMS</span>
         </div>
       </div>
 

@@ -8,7 +8,7 @@ const AdidhiAppImage: React.FC = () => {
     <div className="flex min-h-36 flex-col items-center justify-center bg-gray-50 px-6 py-10">
       {/* Header */}
       <h1 className="mb-6 text-center text-2xl font-bold text-gray-800">
-        Welcome to the Adidhi App
+        Welcome to Adidhi
       </h1>
 
       {/* SVG Image */}

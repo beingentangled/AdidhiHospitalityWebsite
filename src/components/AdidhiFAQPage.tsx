@@ -13,7 +13,7 @@ const jobSeekerFAQs: FAQItem[] = [
     id: 1,
     question: 'What kind of jobs are available on Adidhi?',
     answer:
-      'From Steward to Head Chef and all the jobs in between, you will find jobs fit for all levels of skills and experience on Adidhi.',
+      'From steward to head chef and all the jobs in between, you will find positions suitable for all levels of skill and experience on Adidhi.',
   },
   {
     id: 2,
@@ -29,13 +29,13 @@ const jobSeekerFAQs: FAQItem[] = [
   },
   {
     id: 4,
-    question: 'I did not get OTP, what should I do?',
+    question: 'I did not receive an OTP. What should I do?',
     answer:
       'Ensure your mobile number is entered correctly. If the issue persists, contact our support team.',
   },
   {
     id: 5,
-    question: 'Do I have to pay to apply to jobs?',
+    question: 'Do I have to pay to apply for jobs?',
     answer: 'No, applying to jobs on Adidhi is completely free.',
   },
   {
@@ -61,14 +61,14 @@ const jobSeekerFAQs: FAQItem[] = [
 const employerFAQs: FAQItem[] = [
   {
     id: 1,
-    question: 'How to Post a Job on Adidhi?',
+    question: 'How do I post a job on Adidhi?',
     answer:
-      'To post a job, register your business, fill in basic information, and click on the \'Post a Job\' option. Provide job details like title, experience, location, type, etc.',
+      'To post a job, register your business, fill in the basic information, and click on the "Post a Job" option. Provide job details such as the title, experience, location, type, etc.',
   },
   {
     id: 2,
-    question: 'Do I have to pay to Post a Job?',
-    answer: 'No, posting jobs on Adidhi is free.',
+    question: 'Do I have to pay to post a job?',
+    answer: 'No, posting jobs on Adidhi is free of charge.',
   },
   {
     id: 3,
@@ -80,19 +80,19 @@ const employerFAQs: FAQItem[] = [
     id: 4,
     question: 'Are there any paid features or premium services?',
     answer:
-      'Yes, Adidhi offers premium features like highlighted job postings for better visibility.',
+      'Yes, Adidhi offers premium features, such as highlighted job postings for better visibility.',
   },
   {
     id: 5,
-    question: 'How can I talk to candidates directly?',
+    question: 'How can I contact candidates directly?',
     answer:
-      'After candidates apply, you can contact them through the Adidhi platform\'s messaging feature.',
+      'After candidates apply, you can contact them through the messaging feature on the Adidhi platform.',
   },
   {
     id: 6,
     question: 'What is Adidhi Learn?',
     answer:
-      'Adidhi Learn is a feature that offers learning resources to help candidates enhance their skills.',
+      'Adidhi Learn is a feature that provides learning resources to help candidates enhance their skills.',
   },
 ];
 
