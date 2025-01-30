@@ -10,7 +10,7 @@ const reviews = [
     name: 'Pramela Nair',
     position: 'Cashier',
     review:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      '" Adidhi  made the job search process simple, connecting me with a company that values my skills and offers great growth opportunities."',
     image: '/assets/images/employee1.png',
   },
   {
@@ -18,7 +18,7 @@ const reviews = [
     name: 'Goutham Kumar',
     position: 'Executive Chef',
     review:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      'Adidhi made my job search seamless! I landed an amazing Executive Chef position where I can create, innovate, and inspire through my passion for food.',
     image: '/assets/images/employee2.png',
   },
   {
@@ -26,7 +26,7 @@ const reviews = [
     name: 'Rajesh Kumar',
     position: 'Waiter',
     review:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      'Adidhi helped me land a great waiter position where I can provide excellent service and grow in the hospitality industry. Highly recommended!',
     image: '/assets/images/employee3.png',
   },
   {
@@ -34,7 +34,7 @@ const reviews = [
     name: 'Anita Sharma',
     position: 'Manager',
     review:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      'With Adidhi, I landed the ideal Hotel Manager position, allowing me to apply my leadership skills and passion for hospitality in a thriving environment.',
     image: '/assets/images/employee4.png',
   },
 ];
