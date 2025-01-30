@@ -6,14 +6,14 @@ import React, { useState } from 'react';
 const testimonials = [
   {
     id: 1,
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.',
+    text: 'Adidhi helped us streamline our hiring process, connecting us with the right people for our team. It’s a must-have tool for any manager looking to build a strong workforce!',
     author: 'Mark Garfield',
     role: 'Manager, Orfila Restaurant',
     image: '/assets/images/user1.jpeg', // Replace with the actual path to the user's image
   },
   {
     id: 2,
-    text: 'Adidhi App has been a game-changer! It made finding the perfect job a seamless process. I was able to connect with top employers in the hospitality industry within days.',
+    text: 'Thanks to Adidhi, I was able to quickly find talented sous chefs for my gourmet kitchen. The platform made the hiring process smooth and efficient, allowing me to build a skilled team that elevates our culinary offerings.',
     author: 'Sophia Williams',
     role: 'Chef, Gourmet Kitchen',
     image: '/assets/images/user2.jpeg', // Replace with the actual path to the user's image
