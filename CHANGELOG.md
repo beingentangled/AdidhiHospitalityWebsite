@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/beingentangled/AdidhiHospitalityWebsite/compare/v1.0.0...v1.1.0) (2025-05-16)
+
+
+### Features
+
+* update .gitignore & source components ([7d09821](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/7d09821473985c18c50b19a94303122ca678db1b))
+
 # 1.0.0 (2025-01-30)
 
 
