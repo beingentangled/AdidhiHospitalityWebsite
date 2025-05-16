@@ -1,0 +1,24 @@
+{
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    },
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "/.well-known/assetlinks.json",
+        "destination": "/.well-known/assetlinks.json"
+      },
+      {
+        "source": "/apple-app-site-association",
+        "destination": "/apple-app-site-association"
+      }
+    ]
+  }
+}

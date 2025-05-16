@@ -12,7 +12,7 @@ const ComingSoonPage: React.FC = () => {
   });
 
   // Target date (modify this date as needed)
-  const targetDate = new Date('2025-03-15T00:00:00'); // Example: Feb 15, 2025, midnight
+  const targetDate = new Date('2025-04-15T00:00:00'); // Example: Feb 15, 2025, midnight
 
   // Calculate time left based on the current time
   const calculateTimeLeft = () => {
@@ -48,25 +48,34 @@ const ComingSoonPage: React.FC = () => {
         Coming Soon
       </h1>
       <p className="mb-8 max-w-lg text-center text-gray-600">
-        We’re working hard to bring you something amazing. Stay tuned for updates!
+        We’re working hard to bring you something amazing. Stay tuned for
+        updates!
       </p>
 
       {/* Countdown Section */}
       <div className="mb-8 flex space-x-4">
         <div className="flex flex-col items-center">
-          <div className="text-4xl font-bold text-orange-500">{timeLeft.days}</div>
+          <div className="text-4xl font-bold text-orange-500">
+            {timeLeft.days}
+          </div>
           <div className="text-sm text-gray-500">Days</div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="text-4xl font-bold text-orange-500">{timeLeft.hours}</div>
+          <div className="text-4xl font-bold text-orange-500">
+            {timeLeft.hours}
+          </div>
           <div className="text-sm text-gray-500">Hours</div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="text-4xl font-bold text-orange-500">{timeLeft.minutes}</div>
+          <div className="text-4xl font-bold text-orange-500">
+            {timeLeft.minutes}
+          </div>
           <div className="text-sm text-gray-500">Minutes</div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="text-4xl font-bold text-orange-500">{timeLeft.seconds}</div>
+          <div className="text-4xl font-bold text-orange-500">
+            {timeLeft.seconds}
+          </div>
           <div className="text-sm text-gray-500">Seconds</div>
         </div>
       </div>

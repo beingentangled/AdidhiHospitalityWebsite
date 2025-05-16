@@ -49,3 +49,7 @@ local
 
 # vercel
 .vercel
+
+.firebase
+.idea
+.github
