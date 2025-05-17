@@ -6,6 +6,18 @@
 * cache clearing ([c0b65d9](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/c0b65d95e772b60675915499a7f09b696a7eafe1))
 * deeplink implementation ([c79f85e](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/c79f85e8f973ba5994b4079bb705c7bc44da406b))
 * internationalization prefix removal ([e0a293d](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/e0a293dcefde387889299230969916a1a096de71))
+* rewrites config ([e93961e](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/e93961ed0bbb6d81b7d16273ddd9664c17a37f57))
+* trailing slash removal ([ac19955](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/ac199551b11ed6d73a3a272a18d28fa7e0f08919))
+* update .gitignore & source components ([7d09821](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/7d09821473985c18c50b19a94303122ca678db1b))
+
+# [1.1.0](https://github.com/beingentangled/AdidhiHospitalityWebsite/compare/v1.0.0...v1.1.0) (2025-05-17)
+
+
+### Features
+
+* cache clearing ([c0b65d9](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/c0b65d95e772b60675915499a7f09b696a7eafe1))
+* deeplink implementation ([c79f85e](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/c79f85e8f973ba5994b4079bb705c7bc44da406b))
+* internationalization prefix removal ([e0a293d](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/e0a293dcefde387889299230969916a1a096de71))
 * trailing slash removal ([ac19955](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/ac199551b11ed6d73a3a272a18d28fa7e0f08919))
 * update .gitignore & source components ([7d09821](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/7d09821473985c18c50b19a94303122ca678db1b))
 
