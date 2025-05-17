@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'node:url';
 
 import withBundleAnalyzer from '@next/bundle-analyzer';
+// Correctly import the Sentry configuration
 import { withSentryConfig } from '@sentry/nextjs';
 import createJiti from 'jiti';
 import withNextIntl from 'next-intl/plugin';
@@ -48,36 +49,6 @@ export default withSentryConfig(
             ],
           },
         ];
-      },
-      async rewrites() {
-        return [
-          {
-            source: '/apple-app-site-association',
-            destination: '/apple-app-site-association',
-            locale: false, // Disable locale for this file
-          },
-          {
-            source: '/.well-known/assetlinks.json',
-            destination: '/.well-known/assetlinks.json',
-            locale: false, // Disable locale for this file
-          },
-          // Handle cases with trailing slash (AWS Amplify may add a slash)
-          {
-            source: '/apple-app-site-association/',
-            destination: '/apple-app-site-association',
-            locale: false,
-          },
-          {
-            source: '/.well-known/assetlinks.json/',
-            destination: '/.well-known/assetlinks.json',
-            locale: false,
-          },
-        ];
-      },
-      i18n: {
-        locales: ['en', 'fr'],
-        defaultLocale: 'en',
-        localeDetection: true,
       },
     }),
   ),
