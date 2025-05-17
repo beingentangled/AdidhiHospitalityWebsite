@@ -23,7 +23,7 @@ export default withSentryConfig(
       },
       poweredByHeader: false,
       reactStrictMode: true,
-      trailingSlash: true,
+      trailingSlash: false,
       experimental: {
         serverComponentsExternalPackages: ['@electric-sql/pglite'],
       },
