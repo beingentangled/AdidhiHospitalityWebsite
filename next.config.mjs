@@ -23,7 +23,7 @@ export default withSentryConfig(
       },
       poweredByHeader: false,
       reactStrictMode: true,
-      trailingSlash: false, // Ensure no trailing slash
+      trailingSlash: false,
       experimental: {
         serverComponentsExternalPackages: ['@electric-sql/pglite'],
       },
@@ -61,7 +61,23 @@ export default withSentryConfig(
             destination: '/.well-known/assetlinks.json',
             locale: false, // Disable locale for this file
           },
+          // Handle cases with trailing slash (AWS Amplify may add a slash)
+          {
+            source: '/apple-app-site-association/',
+            destination: '/apple-app-site-association',
+            locale: false,
+          },
+          {
+            source: '/.well-known/assetlinks.json/',
+            destination: '/.well-known/assetlinks.json',
+            locale: false,
+          },
         ];
+      },
+      i18n: {
+        locales: ['en', 'fr'],
+        defaultLocale: 'en',
+        localeDetection: true,
       },
     }),
   ),
