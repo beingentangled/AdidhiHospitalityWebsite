@@ -1,7 +1,6 @@
 import { fileURLToPath } from 'node:url';
 
 import withBundleAnalyzer from '@next/bundle-analyzer';
-// Correctly import the Sentry configuration
 import { withSentryConfig } from '@sentry/nextjs';
 import createJiti from 'jiti';
 import withNextIntl from 'next-intl/plugin';
@@ -47,6 +46,26 @@ export default withSentryConfig(
                 value: 'application/json',
               },
             ],
+          },
+        ];
+      },
+      async rewrites() {
+        return [
+          {
+            source: '/apple-app-site-association',
+            destination: '/apple-app-site-association',
+          },
+          {
+            source: '/.well-known/assetlinks.json',
+            destination: '/.well-known/assetlinks.json',
+          },
+          {
+            source: '/apple-app-site-association/',
+            destination: '/apple-app-site-association',
+          },
+          {
+            source: '/.well-known/assetlinks.json/',
+            destination: '/.well-known/assetlinks.json',
           },
         ];
       },
