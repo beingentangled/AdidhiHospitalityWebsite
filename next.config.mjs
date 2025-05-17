@@ -23,7 +23,7 @@ export default withSentryConfig(
       },
       poweredByHeader: false,
       reactStrictMode: true,
-      trailingSlash: false,
+      trailingSlash: false, // Ensure no trailing slash
       experimental: {
         serverComponentsExternalPackages: ['@electric-sql/pglite'],
       },
@@ -46,6 +46,20 @@ export default withSentryConfig(
                 value: 'application/json',
               },
             ],
+          },
+        ];
+      },
+      async rewrites() {
+        return [
+          {
+            source: '/apple-app-site-association',
+            destination: '/apple-app-site-association',
+            locale: false, // Disable locale for this file
+          },
+          {
+            source: '/.well-known/assetlinks.json',
+            destination: '/.well-known/assetlinks.json',
+            locale: false, // Disable locale for this file
           },
         ];
       },
