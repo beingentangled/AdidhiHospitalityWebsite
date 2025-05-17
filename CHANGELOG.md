@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/beingentangled/AdidhiHospitalityWebsite/compare/v1.0.0...v1.1.0) (2025-05-17)
+
+
+### Features
+
+* deeplink implementation ([c79f85e](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/c79f85e8f973ba5994b4079bb705c7bc44da406b))
+* update .gitignore & source components ([7d09821](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/7d09821473985c18c50b19a94303122ca678db1b))
+
 # 1.0.0 (2025-01-30)
 
 
