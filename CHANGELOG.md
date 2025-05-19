@@ -5,6 +5,25 @@
 
 * added route for apple-file ([b5236fc](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/b5236fc6af21e8a95461d3e879f3de1e6dc70572))
 * added route for apple-file-changes ([25b09af](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/25b09af1c83801f2aebb610b1ab27213e2cf4e50))
+* added route for apple-file-config-changes ([195c213](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/195c213b968827818fbbcdb5e08a14023b7b38ad))
+* cache clearing ([c0b65d9](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/c0b65d95e772b60675915499a7f09b696a7eafe1))
+* deeplink implementation ([c79f85e](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/c79f85e8f973ba5994b4079bb705c7bc44da406b))
+* internationalization prefix removal ([e0a293d](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/e0a293dcefde387889299230969916a1a096de71))
+* rewrites config ([f2b6ce4](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/f2b6ce418831ad9d232355b1abccaf771f8c797e))
+* rewrites config ([a91ff50](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/a91ff50b2f7fed13ab32de6104040d3f47edace7))
+* rewrites config ([e93961e](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/e93961ed0bbb6d81b7d16273ddd9664c17a37f57))
+* rewrites config for apple and android workig at this head ([f53506e](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/f53506e381a0700d75cfd6ef09918555002f3cc5))
+* rewrites config for apple and android workig at this head ([24f258f](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/24f258f8815734f444271143151a71fbe8bce80e))
+* trailing slash removal ([ac19955](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/ac199551b11ed6d73a3a272a18d28fa7e0f08919))
+* update .gitignore & source components ([7d09821](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/7d09821473985c18c50b19a94303122ca678db1b))
+
+# [1.1.0](https://github.com/beingentangled/AdidhiHospitalityWebsite/compare/v1.0.0...v1.1.0) (2025-05-19)
+
+
+### Features
+
+* added route for apple-file ([b5236fc](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/b5236fc6af21e8a95461d3e879f3de1e6dc70572))
+* added route for apple-file-changes ([25b09af](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/25b09af1c83801f2aebb610b1ab27213e2cf4e50))
 * cache clearing ([c0b65d9](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/c0b65d95e772b60675915499a7f09b696a7eafe1))
 * deeplink implementation ([c79f85e](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/c79f85e8f973ba5994b4079bb705c7bc44da406b))
 * internationalization prefix removal ([e0a293d](https://github.com/beingentangled/AdidhiHospitalityWebsite/commit/e0a293dcefde387889299230969916a1a096de71))
