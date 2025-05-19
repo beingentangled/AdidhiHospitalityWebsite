@@ -30,7 +30,7 @@ export default withSentryConfig(
       async headers() {
         return [
           {
-            source: '/apple-app-site-association',
+            source: '/.well-known/apple-app-site-association',
             headers: [
               {
                 key: 'Content-Type',
@@ -52,7 +52,7 @@ export default withSentryConfig(
       async rewrites() {
         return [
           {
-            source: '/apple-app-site-association',
+            source: '/.well-known/apple-app-site-association',
             destination: '/apple-app-site-association',
           },
           {
