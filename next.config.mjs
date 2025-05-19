@@ -3,78 +3,66 @@ import { fileURLToPath } from 'node:url';
 import withBundleAnalyzer from '@next/bundle-analyzer';
 import { withSentryConfig } from '@sentry/nextjs';
 import createJiti from 'jiti';
+import withNextIntl from 'next-intl/plugin';
 
-//
-// 1. Load your environment early via Jiti
-//
 const jiti = createJiti(fileURLToPath(import.meta.url));
 jiti('./src/libs/Env');
 
-//
-// 2. Configure the bundle analyzer plugin
-//
+const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
+
 const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 });
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  eslint: {
-    dirs: ['.'],
-  },
-  poweredByHeader: false,
-  reactStrictMode: true,
-  trailingSlash: false,
-  experimental: {
-    serverComponentsExternalPackages: ['@electric-sql/pglite'],
-  },
-
-  //
-  // 3. Force correct Content-Type for our deep-link JSON files
-  //
-  async headers() {
-    return [
-      {
-        source: '/apple-app-site-association',
-        headers: [{ key: 'Content-Type', value: 'application/json' }],
-      },
-      {
-        source: '/.well-known/assetlinks.json',
-        headers: [{ key: 'Content-Type', value: 'application/json' }],
-      },
-    ];
-  },
-
-  //
-  // 4. Ensure both files are served at root (with or without trailing slash)
-  //
-  async rewrites() {
-    return [
-      {
-        source: '/apple-app-site-association/',
-        destination: '/apple-app-site-association',
-      },
-      {
-        source: '/apple-app-site-association',
-        destination: '/apple-app-site-association',
-      },
-      {
-        source: '/.well-known/assetlinks.json/',
-        destination: '/.well-known/assetlinks.json',
-      },
-      {
-        source: '/.well-known/assetlinks.json',
-        destination: '/.well-known/assetlinks.json',
-      },
-    ];
-  },
-};
-
-//
-// 5. Wrap with plugins: first bundle analyzer, then Sentry
-//
 export default withSentryConfig(
-  bundleAnalyzer(nextConfig),
+  bundleAnalyzer(
+    withNextIntlConfig({
+      eslint: {
+        dirs: ['.'],
+      },
+      poweredByHeader: false,
+      reactStrictMode: true,
+      trailingSlash: false,
+      experimental: {
+        serverComponentsExternalPackages: ['@electric-sql/pglite'],
+      },
+      async headers() {
+        return [
+          {
+            source: '/apple-app-site-association',
+            headers: [
+              {
+                key: 'Content-Type',
+                value: 'application/json',
+              },
+            ],
+          },
+          {
+            source: '/.well-known/assetlinks.json',
+            headers: [
+              {
+                key: 'Content-Type',
+                value: 'application/json',
+              },
+            ],
+          },
+        ];
+      },
+      async rewrites() {
+        return [
+          {
+            source: '/apple-app-site-association',
+            destination: '/apple-app-site-association',
+          },
+          {
+            source: '/.well-known/assetlinks.json',
+            destination: '/.well-known/assetlinks.json',
+          },
+        ];
+      },
+    }),
+  ),
   {
     org: 'nextjs-boilerplate-org',
     project: 'nextjs-boilerplate',
