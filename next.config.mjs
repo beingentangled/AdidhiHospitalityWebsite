@@ -59,14 +59,6 @@ export default withSentryConfig(
             source: '/.well-known/assetlinks.json',
             destination: '/.well-known/assetlinks.json',
           },
-          {
-            source: '/apple-app-site-association/',
-            destination: '/apple-app-site-association',
-          },
-          {
-            source: '/.well-known/assetlinks.json/',
-            destination: '/.well-known/assetlinks.json',
-          },
         ];
       },
     }),
