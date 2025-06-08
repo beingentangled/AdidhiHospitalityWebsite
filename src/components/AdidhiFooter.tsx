@@ -54,6 +54,11 @@ const AdidhiFooter: React.FC = () => {
                 Terms of use
               </Link>
             </li>
+            <li>
+              <Link href="/delete-data" className="hover:text-gray-900">
+                Delete Data
+              </Link>
+            </li>
           </ul>
         </div>
 
